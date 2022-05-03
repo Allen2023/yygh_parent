@@ -1,0 +1,18 @@
+aliyun:
+  oss:
+    file:
+      bucketname: 220425
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      keyid: LTAI5tJvGnRwn49FRZpMxEux
+      keysecret: 26iu4Q2JmfGAwt28Q5IZ8FSxwDSOSl
+server:
+  port: 8205
+spring:
+  application:
+    name: service-oss
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
